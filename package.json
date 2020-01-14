@@ -1,0 +1,37 @@
+{
+  "name": "declarative-factory",
+  "version": "1.0.0",
+  "description": "A simple yet effective function to create factory objects through a declarative API.",
+  "keywords": [
+    "factory",
+    "abstract-factory",
+    "declarative"
+  ],
+  "author": "Anton Bagdatyev (Tonix-Tuft)",
+  "license": "MIT",
+  "main": "./dist/declarative-factory.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tonix-tuft/declarative-factory.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "WEBPACK_ENV=watch webpack --progress --colors --watch",
+    "build": "WEBPACK_ENV=build webpack"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
+    "@typescript-eslint/parser": "^2.15.0",
+    "eslint": "^6.8.0",
+    "serialize-javascript": "^2.1.2",
+    "terser-webpack-plugin": "^1.4.3",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "bugs": {
+    "url": "https://github.com/tonix-tuft/declarative-factory/issues"
+  },
+  "homepage": "https://github.com/tonix-tuft/declarative-factory#readme",
+  "dependencies": {}
+}
