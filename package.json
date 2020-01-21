@@ -19,7 +19,7 @@
     "watch": "WEBPACK_ENV=watch webpack --progress --colors --watch",
     "dev-build": "WEBPACK_ENV=watch webpack --progress --colors",
     "build": "WEBPACK_ENV=build webpack",
-    "publish-minor": "npm run build && npm run dev-build && npm version minor && npm publish && git push --tags"
+    "publish-minor": "npm run build && npm run dev-build && npm version minor && npm publish && git push && git push --tags"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.15.0",
