@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/tonix-tuft/declarative-factory#readme",
   "dependencies": {
-    "js-utl": "^2.13.0"
+    "js-utl": "^3.0.0"
   },
   "files": [
     "dist",
