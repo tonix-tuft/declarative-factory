@@ -7,7 +7,7 @@
     "abstract-factory",
     "declarative"
   ],
-  "author": "Anton Bagdatyev (Tonix-Tuft)",
+  "author": "Anton Bagdatyev (Tonix)",
   "license": "MIT",
   "main": "dist/declarative-factory.js",
   "module": "src/index.js",
@@ -20,7 +20,11 @@
     "watch": "WEBPACK_ENV=watch webpack --progress --colors --watch",
     "dev-build": "WEBPACK_ENV=watch webpack --progress --colors",
     "build": "WEBPACK_ENV=build webpack",
-    "publish-minor": "npm run build && npm run dev-build && npm version minor && npm publish && git push && git push --tags"
+    "publish-git": "npm publish && git push && git push --tags",
+    "build-all": "npm run build && npm run dev-build",
+    "publish-patch": "npm run build-all && npm version patch && npm run publish-git",
+    "publish-minor": "npm run build-all && npm version minor && npm run publish-git",
+    "publish-major": "npm run build-all && npm version major && npm run publish-git"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.15.0",
