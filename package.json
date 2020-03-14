@@ -1,6 +1,6 @@
 {
   "name": "declarative-factory",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "A simple yet effective function to create factory objects through a declarative API.",
   "keywords": [
     "factory",
