@@ -33,17 +33,17 @@
     "eslint": "^6.8.0",
     "minimist": ">=1.2.3",
     "serialize-javascript": "^2.1.2",
-    "terser-webpack-plugin": "^2.3.6",
-    "typescript": "^3.9.3",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "terser-webpack-plugin": "^2.3.7",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   },
   "bugs": {
     "url": "https://github.com/tonix-tuft/declarative-factory/issues"
   },
   "homepage": "https://github.com/tonix-tuft/declarative-factory#readme",
   "dependencies": {
-    "js-utl": "^4.12.1"
+    "js-utl": "^4.28.0"
   },
   "files": [
     "dist",
