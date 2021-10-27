@@ -39,14 +39,14 @@ const testConditionFn = testCondition =>
  *
  * @param {Function} tuples An array of tuples, each tuple being an array of two elements:
  *
- *                                - testCondition: A boolean value or a function returning a boolean value
- *                                                 which, if "true", instructs this function to return the "factory" factory
- *                                                 bound to this "testCondition".
- *                                                 Note that the first "factory" for which "testCondition" is truthy
- *                                                 will be returned and further tuples will be ignored;
+ *                              - testCondition: A boolean value or a function returning a boolean value
+ *                                               which, if "true", instructs this function to return the "factory" factory
+ *                                               bound to this "testCondition".
+ *                                               Note that the first "factory" for which "testCondition" is truthy
+ *                                               will be returned and further tuples will be ignored;
  *
- *                                - factory: Anything. The value to return if "testCondition" is a truthy value
- *                                           or a function returning a truthy value.
+ *                              - factory: Anything. The value to return if "testCondition" is a truthy value
+ *                                         or a function returning a truthy value.
  *
  *                          The last element of the returned tuples MAY not be a tuple array with two elements,
  *                          and in such case it will be treated as the default factory value to return if none
