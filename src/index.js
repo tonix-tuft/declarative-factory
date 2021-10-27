@@ -54,7 +54,6 @@ const testConditionFn = testCondition =>
  *                          If the last tuple is not a default value and none of the test conditions of the previous
  *                          factories are satisfied as well as for the factory of last tuple, then "undefined"
  *                          will be returned by this function.
- * @param {Array|undefined} deps Dependencies array to use.
  * @return {*} The first factory value for which the test is truthy or returns a truthy value, a default factory value,
  *             or "undefined".
  */
